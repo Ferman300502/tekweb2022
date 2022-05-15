@@ -3,6 +3,8 @@ Vue.createApp({
         return {
             message: "Hello Vue!",
             header: {},
+            about: {},
+            articles: {},
         };
     },
     methods: {
@@ -48,6 +50,8 @@ Vue.createApp({
 
     },
     beforeMount() {
-        this.getHeaderData() //eksekusi fungsi getHeaderData() pada bagian methods saat halaman terbuka
+        this.getHeaderData()
+        this.getAboutData()
+        this.getArticlesData()
     },
 }).mount("#app");
