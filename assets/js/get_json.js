@@ -9,7 +9,7 @@ Vue.createApp({
         getHeaderData() {
             axios
                 .get(
-                    "D:\1. Tugas\Semester 4\Tekweb Lanjut\CopyPorto\header.json"
+                    "https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/assets/js/header.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
@@ -22,7 +22,7 @@ Vue.createApp({
         getAboutData() {
             axios
                 .get(
-                    "./header.json"
+                    "https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/assets/js/about.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
@@ -32,14 +32,14 @@ Vue.createApp({
                     console.log(error); //melihat error jika pengambilan data adalah gagal
                 });
         },
-        getServicesData() {
+        getArticlesData() {
             axios
                 .get(
-                    "D:\1. Tugas\Semester 4\Tekweb Lanjut\CopyPorto \services.json"
+                    "https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/assets/js/services.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
-                    this.services = res.data; //memperbarui variabel header pada bagian data()
+                    this.articles = res.data; //memperbarui variabel header pada bagian data()
                 })
                 .catch((error) => {
                     console.log(error); //melihat error jika pengambilan data adalah gagal
