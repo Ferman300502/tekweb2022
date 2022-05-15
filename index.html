@@ -110,37 +110,17 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" v-for="data in article">
                     <div class="icon-box">
-                        <img src="assets/img/figma.png"></img>
-                        <h4><a href="">{{articles.title}}</a></h4>
-                        <p>{{articles.desc}}</p>
+                        <img v-bind:src="data.thumbnail" class="card-img-top"></img>
+                        <h4><a href="">{{data.title}}</a></h4>
+                        <p>{{data.description}}</p>
                         <br>
-                        <a href="articles/figma.html" class="btn btn-primary">Read More</a>
+                        <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="assets/img/Msword.png"></img>
-                        <h4><a href="">{{articles.itle1}}</a></h4>
-                        <p>{{articles.desc1}}</p>
-                        <br>
-                        <a href="articles/msword.html" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <img src="assets/img/ppt.png"></img>
-                        <h4><a href="">{{articles.title2}}</a></h4>
-                        <p>{{articles.desc2}}</p>
-                        <br>
-                        <a href="articles/msppt.html" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-
             </div>
+        </div>
     </section>
     <!-- End Services Section -->
 
@@ -148,6 +128,8 @@
 
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+    <script src="assets/"></script>
     <script src="assets/js/get_json.js"></script>
     <script src="assets/js/style.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
