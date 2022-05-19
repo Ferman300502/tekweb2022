@@ -2,18 +2,21 @@
         "ID": "1",
         "title": "Figma",
         "description": "Aplikasi berbasis web untuk mendesain UI dan UX.",
-        "thumbnail": "assets/img/figma.png"
+        "thumbnail": "assets/img/figma.png",
+        "markdown": "article_1.md"
     },
     {
         "ID": "2",
         "title": "Microsoft Word",
         "description": "Sebuah program yang merupakan bagian dari paket instalasi Microsoft Office, berfungsi sebagai perangkat lunak pengolah kata meliputi membuat, mengedit, dan memformat dokumen.",
-        "thumbnail": "aseets/img/Msword.png"
+        "thumbnail": "aseets/img/Msword.png",
+        "markdown": "article_2.md"
     },
     {
         "ID": "3",
         "title": "Microsoft Power Point",
         "description": "Sebuah program presentasi yang dibuat pada perangkat lunak dari Microsoft yang memungkinkan pengguna untuk menambahkan fitur audio, visual, dan audio/visual ke presentasi.",
-        "thumbnail": "aseets/img/Msword.png"
+        "thumbnail": "aseets/img/Msword.png",
+        "markdown": "article_3.md"
     }
 ]
