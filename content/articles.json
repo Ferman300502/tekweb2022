@@ -9,14 +9,14 @@
         "ID": "2",
         "title": "Microsoft Word",
         "description": "Sebuah program yang merupakan bagian dari paket instalasi Microsoft Office, berfungsi sebagai perangkat lunak pengolah kata meliputi membuat, mengedit, dan memformat dokumen.",
-        "thumbnail": "aseets/img/Msword.png",
+        "thumbnail": "assets/img/Msword.png",
         "markdown": "articles_2.md"
     },
     {
         "ID": "3",
         "title": "Microsoft Power Point",
         "description": "Sebuah program presentasi yang dibuat pada perangkat lunak dari Microsoft yang memungkinkan pengguna untuk menambahkan fitur audio, visual, dan audio/visual ke presentasi.",
-        "thumbnail": "aseets/img/Msword.png",
+        "thumbnail": "assets/img/ppt.png",
         "markdown": "articles_3.md"
     }
 ]

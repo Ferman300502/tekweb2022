@@ -37,7 +37,7 @@ Vue.createApp({
         getArticlesData() {
             axios
                 .get(
-                    "https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/content/article.json"
+                    "https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/content/articles.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
