@@ -1,7 +1,7 @@
 [{
         "ID": "1",
         "title": "Figma",
-        "description": "Aplikasi berbasis web untuk mendesain UI dan UX.",
+        "description": "Aplikasi berbasis web untuk mendesain UI dan UX. Aplikasi desain berbasis cloud dan alat prototyping untuk project digital. Figma dapat membantu para penggunanya berkolaborasi dalam suatu project atau pekerjaan dengan banyak pengguna secara real-time dan di mana saja.",
         "thumbnail": "assets/img/figma.png",
         "markdown": "articles_1.md"
     },
