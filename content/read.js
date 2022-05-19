@@ -1,7 +1,7 @@
 Vue.createApp({
     data() {
         return {
-            article: null,
+            articles: null,
         };
     },
     methods: {
@@ -12,7 +12,7 @@ Vue.createApp({
             var converter = new showdown.Converter();
             axios
                 .get(
-                    'https://raw.githubusercontent.com/Ferman300502/tekweb2022/main/content/' + article
+                    'https://github.com/Ferman300502/tekweb2022/tree/main/content' + articles
                 )
                 .then((res) => {
                     var html = converter.makeHtml(res.data);
