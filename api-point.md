@@ -171,4 +171,4 @@ false   // if failure
 
 Desain database untuk menyediakan API Points adalah sebagai berikut:
 
-![Desain database API](https://github.com/Retnoayuwulandari/tekweb2022/blob/master/Diagram.png)
+![Desain database API](https://github.com/Ferman300502/tekweb2022/blob/main/Database.png)
